@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../html-formularioII/formulario-sf.css">
+
+    <title>Formulário Salesforce</title>
+</head>
+<body>
+<div> 
+  <div class="logo">
+    <img class="img-logo" src="../html-formularioII/img/salesforce-logo-name.png" alt="Logo Salesforce">   
+  </div> 
+<!--FORMULÁRIO CADASTRO DE OPORTUNIDADE-->
+
+  <div class="form">
+    <div class="right-side">
+    <form>
+    <h1 class="title">Formulário de Cadastro Salesforce</h1>
+      <label>
+        <input type="checkbox" name="particular" value="true">
+        Particular
+      </label>
+
+      <label>
+        Nome da Oportunidade:<br>
+        <input type="text" name="nome" required>
+      </label>
+
+      <label>Valor:<br>
+        <input type="text" id="valor" name="valor" class="value" required>
+      </label>
+
+      <label>Fase:<br>
+        <select name="fase" required>
+          <option value="">Selecione uma opção</option>
+          <option value="Prospecting">Prospecting</option>
+          <option value="Qualification">Qualification</option>
+          <option value="Needs Analysis">Needs Analysis</option>
+          <option value="Value Proposition">Value Proposition</option>
+          <option value="Id. Decision Makers">Id. Decision Makers</option>
+          <option value="Perception Analysis">Perception Analysis</option>
+          <option value="Proposal/Price Quote">Proposal/Price Quote</option>
+          <option value="Negotiation/Review">Negotiation/Review</option>
+          <option value="Closed Won">Closed Won</option>
+          <option value="Closed Lost">Closed Lost</option>
+          <option value="Aguardando">Aguardando</option>
+          <option value="Pagamento ">Pagamento</option>
+        </select>
+      </label>
+ 
+      <label>Tipo:<br>
+        <select name="tipo" required>
+          <option value="">Selecione uma opção</option>
+          <option value="Existing Customer - Upgrade">Existing Customer - Upgrade</option>
+          <option value="Existing Customer - Replacement">Existing Customer - Replacement</option>
+          <option value="Existing Customer - Downgrade">Existing Customer - Downgrade</option>
+          <option value="New Customer">New Customer</option>
+        </select>
+      </label>
+      
+      <input type="submit" value="Enviar">
+    </form>
+    </div>
+  </div> 
+</div>
+
+</body>
+</html>

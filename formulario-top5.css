@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #e6e6e6;
+    background-image: url('https://st2.depositphotos.com/50320312/46422/i/450/depositphotos_464227914-stock-photo-various-movie-film-props-including.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+  h1 {
+    color: #8e0080;
+    font-size: 18px;
+    text-align: center; 
+    align-items: center;
+    margin-top: 10px;
+    }
+
+  form {
+    width: 380px;
+    max-width: 100%;  
+    margin: 0px auto;
+    margin-top: 60px;
+    padding: 12px; 
+    position: relative;   
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px
+    }
+
+  label {
+    display:block;
+    margin-top: 6px;
+    margin-bottom: 2px;
+    font-size: 14px;
+    }
+
+  input[type="text"]{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 12px;
+    margin-bottom: 20px;
+    }  
+
+  input[type="email"]{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 12px;
+    margin-bottom: 20px;
+    } 
+
+  input[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #6bb1fd;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+
+  input[type="tipofs"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }  
+
+  input[type="url"]{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }   

@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }  
+
+body {
+	font-family: Arial, sans-serif;
+    color: #4CAF50;
+    background-color: #f7f2fb;
+    background-image: url('https://images.gamebanana.com/img/ss/mods/58077d0a8ebca.jpg');
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-size: 2em;
+	text-align: center;
+	margin-top: 0;
+	padding: 10px;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin-top: 2em;
+	padding: 6px;
+	margin-left: 50px;
+	color: #08009a;
+}
+
+form {
+	margin-bottom: 2em;
+	padding: 12px;
+	background-color: #4f0954;
+	border: 1px solid #9001a3;
+	border-radius: 5px;
+	width: 400px;
+	margin-left: 50px;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+input[type="number"], input[type="text"], input[type="date"], select, textarea {
+	padding: 0.5em;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	font-size: 1em;
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 0.5em;
+	border: none;
+	border-radius: 4px;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+textarea {
+	height: 8em;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+#nomepokemon, #informacao{
+	width: 95%;
+}
+#pokebolasusadas, #datacaptura, #tipo {
+	width: 40%;
+}
+footer p{
+	margin-left: 50px;	
+	margin-bottom: 20px;
+}
